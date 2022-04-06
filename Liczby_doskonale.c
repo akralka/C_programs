@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int suma, x;
     printf("Podaj zakres: \n");
     scanf("%d", &x);
+
+    int ilosc_liczb = 0;
 
     for (int i = 1; i <= x; i++) {
         suma = 0;
@@ -13,7 +15,9 @@ int main(void) {
             }
         if (suma == i) {
             printf("Liczba doskonala to:  %d\n", i);
+            ilosc_liczb ++;
         }
     }
+    printf("Tych liczb jest: %d\n ", ilosc_liczb);
     return 0;
 }
