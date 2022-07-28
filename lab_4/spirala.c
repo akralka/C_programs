@@ -47,4 +47,4 @@ int main() {
 //        printf("%d ", *((int*)tab +i));
 //    printf("\n");
 //    }
-// to by poszło liniowo
+// dla liniowego
