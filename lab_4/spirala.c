@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &n);
     int tab[n][n];
     int k = 1;
-    for (int p =0; p<(n/2 +1); p++){  // p to jest liczba warstw gotowych
+    for (int p =0; p<(n/2 +1); p++){  
 
     for (int i = p; i < n-p; i++) {
         tab[p][i] = k;
@@ -36,15 +36,4 @@ int main() {
 }
 
 
-//for(int i = 0; i<n; i++){
-//for(int j = 0; j<n; j++){
-//tab[i][j] = n * i + j;
-//printf("%3d", tab[i][j]);
-//}
-//printf("\n");
 
-//    for(int i = 0; i < n*n; i++){
-//        printf("%d ", *((int*)tab +i));
-//    printf("\n");
-//    }
-// dla liniowego
