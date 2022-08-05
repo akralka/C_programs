@@ -37,7 +37,7 @@ int main()
     return 0;
 }
 
-// modified
+//modified: enter the data
 
 // #include <stdio.h>
 
