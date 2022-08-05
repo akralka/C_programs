@@ -86,25 +86,4 @@ int main() {
 }
 
 
-//#include <stdio.h>
-//
-//int main() {
-//    int n, i;
-//    unsigned long long factorial = 1;
-//    printf("Enter an integer: ");
-//    scanf("%d", &n);
-//
-//    if (n < 0)
-//        printf("Factorial of a negative number does not exist.");
-//    else if(n==0)
-//        printf("0! = 1");
-//    else {
-//        for (i = 1; i <= n; ++i) {
-//            factorial *= i;
-//        }
-//        printf("%d! = %llu", n, factorial);
-//    }
-//
-//    return 0;
-//}
-// działa do 65
+
